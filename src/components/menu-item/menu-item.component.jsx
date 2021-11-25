@@ -6,7 +6,7 @@ import './menu-item.styles.scss';
 const MenuItem = ({ title, imageUrl, size }) => {
   const navigate=useNavigate();
   function handleClick(){
-    navigate('/hats')
+    navigate('/shop')
   }
   return(
   <div className={`${size} menu-item`} onClick={handleClick}>
